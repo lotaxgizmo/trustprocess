@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/cloister-black");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: "Cloister Black", sans-serif;
+}
