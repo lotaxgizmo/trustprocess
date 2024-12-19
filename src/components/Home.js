@@ -4,12 +4,13 @@ import twitter from '../assets/twitter.png'
 import buy from '../assets/buy.png'
 import chart from '../assets/chart.png'
 import telegram from '../assets/telegram.png'
+import scanner from '../assets/scanner.png'
 
 function Home() {
     return (
         <div className='home flex flex-col justify-center items-center w-full'>
-            <img src={gif} alt="" className='w-96 rounded-2xl p-4' />
-            <h1 className='text-white lg:text-8xl text-4xl  '>Trust The Process</h1>
+            <img src={gif} alt="" className='w-96 rounded-3xl p-4' />
+            <h1 className='text-white lg:text-6xl text-4xl py-1 '>Trust The Process</h1>
             <p className='text-white lg:text-2xl text-sm text-wrap '>CA: r4gfQGTgBNzL5W7Zgc872UK2Bxze3SvB3u</p>
 
             <div className="buttons flex flex-row flex-wrap justify-center items-center w-full">
@@ -26,6 +27,9 @@ function Home() {
                     <img src={telegram} alt="" className='lg:w-52 w-40 rounded-2xl p-4' />
                 </a>
             </div>
+            <h1 className='text-white lg:text-6xl text-4xl  text-center mt-3'>Access our Trust Scanner Bot</h1>
+
+            <img src={scanner} alt="" className='w-96 rounded-2xl p-4' />
 
         </div>
     )
